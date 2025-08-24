@@ -24,6 +24,7 @@ Docs: [API Swagger](https://pos-backend-kso1.onrender.com/api-docs/)
 - ❌ **Type check**:
   - `total` is currently a string (`"total": "1.00"`), should likely be a `number`.
   - `price` and `product_price` are correct as floats (`10.0`, `10.99`).
+- ❌ **CORS**: use prod cors for front - back 
 
 ```bash
 git clone https://github.com/thomson159/pos-backend
