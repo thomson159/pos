@@ -25,6 +25,13 @@ Docs: [API Swagger](https://pos-backend-kso1.onrender.com/api-docs/)
   - `total` is currently a string (`"total": "1.00"`), should likely be a `number`.
   - `price` and `product_price` are correct as floats (`10.0`, `10.99`).
 
+```bash
+git clone https://github.com/thomson159/pos-backend
+cd pos-backend
+npm install
+npm run dev
+```
+
 ---
 
 ## 🛒 Frontend
@@ -36,20 +43,6 @@ Live: [https://243pen.store/shop](https://243pen.store/shop)
 - Only the `/shop` page is connected to the backend.
 - Other parts of the frontend project are not relevant to this integration.
 
----
-
-## 🔧 Local Development
-
-### Backend
-
-```bash
-git clone https://github.com/thomson159/pos-backend
-cd pos-backend
-npm install
-npm run dev
-```
-
-## Frontend
 
 ```bash
 git clone https://github.com/thomson159/pen
@@ -61,5 +54,7 @@ npm start
 ## Notes
 
 Backend has detailed Swagger documentation.
+
 Frontend is partially connected – only /shop integrates with the API.
+
 The project is fully functional locally; production may need some fine-tuning on the backend side (especially sync endpoints).
