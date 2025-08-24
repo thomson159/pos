@@ -10,10 +10,6 @@ This repository connects two separate projects:
 
 ---
 
-## 🔗 Project Architecture
-
----
-
 ## 📦 Backend
 
 A complete REST API for managing products, orders, and syncing with external sources.
@@ -51,3 +47,19 @@ git clone https://github.com/thomson159/pos-backend
 cd pos-backend
 npm install
 npm run dev
+```
+
+## Frontend
+
+```bash
+git clone https://github.com/thomson159/pen
+cd pen
+npm install
+npm start
+```
+
+## Notes
+
+Backend has detailed Swagger documentation.
+Frontend is partially connected – only /shop integrates with the API.
+The project is fully functional locally; production may need some fine-tuning on the backend side (especially sync endpoints).
