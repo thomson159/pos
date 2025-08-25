@@ -1,5 +1,7 @@
 # POS Fullstack App – Backend + Frontend Integration
 
+⚠️ Recommend running the backend locally [localhost:5000/api-docs](http://localhost:5000/api-docs/), the frontend is set to [API](https://pos-backend-kso1.onrender.com/api/)
+
 This repository connects two separate projects:
 
 - **Backend (Express + REST API)**: [pos-backend](https://github.com/thomson159/pos-backend)  
