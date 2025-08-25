@@ -53,7 +53,6 @@ Live: [https://243pen.store/shop](https://243pen.store/shop)
 
 ### 📌 Issues and TODOs
 
-- **File structure**: the entire shop frontend is currently in a single file `src/pages/shop.js` – needs to be split into components.
 - **Tests**: no frontend or end-to-end tests; backend only has some partial end-to-end tests.
 - **CORS**: use prod cors for front - back
 
